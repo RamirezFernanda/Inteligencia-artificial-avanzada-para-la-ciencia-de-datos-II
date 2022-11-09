@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 original_dir = pathlib.Path("train")
-new_base_dir = pathlib.Path("horse_or_human")
+new_base_dir = pathlib.Path('HorsesOrHumans\horse_or_human')
 
 
 train_dataset = image_dataset_from_directory(

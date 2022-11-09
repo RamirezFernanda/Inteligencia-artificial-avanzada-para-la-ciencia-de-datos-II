@@ -1,3 +1,4 @@
+
 # import SentimentIntensityAnalyzer class
 # from vaderSentiment.vaderSentiment module.
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
@@ -35,10 +36,3 @@ def reading_dataset(dataset):
     for line in f:
         lst.append(line.strip())
     return lst
-
-
-# Driver code
-if __name__ == "__main__":
-    sentence = reading_dataset('DataSets\Tiny_movie_reviews_dataset.txt')
-    for i in sentence:
-        sentiment_scores(i)
