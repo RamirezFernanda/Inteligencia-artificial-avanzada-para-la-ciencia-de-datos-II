@@ -14,7 +14,7 @@ def bleu_score():
     google_traduction = split_dataset('../DataSets/google_traduction.txt')
 
     print('BLEU score for GoogleAPI-> {}'.format(
-        sentence_bleu(original_dataset, google_traduction)))
+        sentence_bleu(google_traduction, original_dataset)))
 
 
 bleu_score()
