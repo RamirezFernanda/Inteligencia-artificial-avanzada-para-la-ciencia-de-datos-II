@@ -29,6 +29,8 @@ def sentiment_scores(sentence):
         print("Neutral")
 
 
+# Function that returns a list of strings that contains all the
+# sentences in a txt file
 def reading_dataset(dataset):
     lst = []
     f = open(dataset, "r")

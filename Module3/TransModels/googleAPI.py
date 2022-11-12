@@ -1,8 +1,10 @@
 import os
 from google.cloud import translate_v2 as translate
 
-
+# Google Cloud Translator credentials here
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'Your credential here'
+
+# Function that calls Google Cloud Translator API
 
 
 def google_cloud_translator(text, target):
@@ -11,11 +13,15 @@ def google_cloud_translator(text, target):
     result = translate_client.translate(text, target_language=target)
     return result["translatedText"]
 
+# Function that translates a given dataset from any language to English
+
 
 def traduction(dataset):
     original_dataset = open(dataset, 'r')
     translated_dataset = google_cloud_translator(original_dataset.read(), 'en')
     return translated_dataset
+
+# Function that write a txt file with the translated dataset
 
 
 def write_txt(text, name):
