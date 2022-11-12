@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "phrasal-hold-368401",
+  "private_key_id": "0e8dbc6260f1c029ff743ba3c219f5fd80d18459",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDe/Yx7LXOCpryB\nHQojLlNnvw/goxpsb6LNkWoaFPZk40WlnDIo5ajVBnjccL+27JS9D/H7tATYKyz7\nA9jIJP7GEoQTciOEZrzwjoRHb98lnM19ogBNLSakNYmU8yTsEgGkZp36V8uT0ieU\nszDSIfNCzzLNaf4FD6gXocrkC1g+AR7KJnEB69QBvqK2pwmwhY0RB906BUhRbEAC\nSGMksEcaiUcYs5VGJpX7kgivUOAG5R4VgiW7370Sk6+9jJQWYU+ZgTOM7IRX/aIt\nJoYlSyMIP2RAN3B/gFmxI94+ZJSWPZxaVl3YXxYJoOW4JBcd0XAJWtegcZYRxSky\nhp8wY72nAgMBAAECggEADRH3e1DSsG8YJXPk9Y2a6JMpBGsK+sggVsRAin7St7R1\nOfEfJN6GjYCaR5wkNeiatJThWMuDF9iQA7aErQEzcxCqxSkE2UHcWTfr8PP8XwwD\nJMCrcS/wT+JYyhjmVR/zu1sjGgVYsrVitIiRl/99brEOXT6VMQlrOiy1jmBL2nZt\nAUlv0UJzsKzG5KGIXKYJfoy+FOEIVIL1Y/D4s5+l75nrahMYh/ZIkhT1e7WNquD8\njx8ywQYNQkmd7ctVo+n6zuguDOL3IuP0zYQlGa/+cA35YQ+qyXRTsG6oReLs+lhT\nbZuzETsE/tP+Qv1tGPc+ye8WBMIgoAAL4gDsTZlP4QKBgQDvmwx+8Wmis4fn1Cef\nthUuLaUe3odxom8MbhW4J4MLaGIkd1sEB3KHijJTaoPpFTmPc6CkxU2VVumWoiIo\nZN7445HdfcqkOMDWq0JmkGeSZlvA+AXJhbMRSsPMuM9FfGHsTqbfFoNVOaoBDkiT\n7NU12UWePCdDWEH7wozT+KJQhQKBgQDuP3dZwoSHShhejmjd4apXS9KS4vhh0jlo\nyhDyqGH/8cjsKSGoO6wc0ELbsyM+LeqvDu0E5w5Qw0rT7QlWJqY70QPjLvb0nQg2\nILTD74pBGeiyL4KzbhZWNg7OIZUeO7cMgb9EUMfg2xg7MK0IrKceHnPzNEwY0zyL\nC8dvb+UjOwKBgEykOMwGJnb/nDJAf2gr0vyRZybHoWVswr6kG9hq8xTcD8CAWSGh\nzDWks9JQ2N7ehinnn3P1FIr3YQJo3Co1kcjk6gyCJyZ+bNh9sWCjQi3nBeRksV0z\nogKe+qBqYQpl7eCri98CEYJaTpHF4ttGPzDZTdZ+gUSeX4TLR0aqWikNAoGAU97V\nxix6+SF1aLwbYJjTnX2cuIbcR5t5CFGyG6p5LV/RiomERrQTB+Ws06jBbF8/sbbA\na6xnVrkZO3fDhKeAd6hCBRUAbOZnAJ8M47kM45QaXbfp+/5yMJFBLwGVfBore2Sl\nj4gchSS76AJft6EIB8tSqDgt3cNnGc/gunMaqAcCgYAbFJvqZyOQw4Qcug+YLS2h\nmVEdGMYLMcojUkOO2wkTGKhTMYn1qEtBJEbxvJeZodQxjJy1JhZDHxk/FdK/wQOQ\nqo4vqIYn0FqTbXhPknvfMqlR8URAwqtobdlWlEOl3EvU46rWrkwy7HReJdqilfGs\nZN7gwAsisHDF9Tvqv8M6DA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "translateapi@phrasal-hold-368401.iam.gserviceaccount.com",
+  "client_id": "117942300783063325910",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/translateapi%40phrasal-hold-368401.iam.gserviceaccount.com"
+}
