@@ -16,8 +16,8 @@ where we compare the results (bleu) of two different models.
 To install the requirements you will need use the command 'pip install -r requirements.txt'
 
 To get de API Keys for the TransModels, for Google Cloud Translator you should insert 
-the path to the json file in GOOGLE_APPLICATION_CREDENTIALS where it says 'Your credential here'.
-
+the path to the json file in GOOGLE_APPLICATION_CREDENTIALS where it says 'Your credential here', for Deepl API
+you shoul insert your credential where it says 'Your credential here'
 
 ### Executing program
 

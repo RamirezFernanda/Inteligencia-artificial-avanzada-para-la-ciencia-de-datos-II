@@ -1,4 +1,3 @@
-
 # import SentimentIntensityAnalyzer class
 # from vaderSentiment.vaderSentiment module.
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
@@ -29,7 +28,7 @@ def get_sentiment_scores(sentence):
 
 # Function that returns a list of strings that contains all the
 # sentences in a txt file
-def read_dataset(dataset):  # function names should almost always start with verbs :) 
+def read_dataset(dataset):  # function names should almost always start with verbs :)
     results = []
     # you should use the "with" construction mentioned here: https://www.programiz.com/python-programming/file-operation
     # so that the file is automatically closed. right now, you are leaving it open!
