@@ -2,7 +2,7 @@ import os
 from google.cloud import translate_v2 as translate
 
 # Google Cloud Translator credentials here
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'credential.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'Your credential here'
 
 # Function that calls Google Cloud Translator API
 

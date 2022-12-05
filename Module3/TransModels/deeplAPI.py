@@ -1,12 +1,10 @@
 import os
 import deepl
 
-AUTH_KEY = '8aa6f613-b649-3b3e-b647-805d9550d7fc: fx'
-
 
 def deepl_translator(text, target):
 
-    auth_key = '8aa6f613-b649-3b3e-b647-805d9550d7fc:fx'
+    auth_key = 'Your credential here'
     translator = deepl.Translator(auth_key)
 
     result = translator.translate_text(text, target_lang=target)
