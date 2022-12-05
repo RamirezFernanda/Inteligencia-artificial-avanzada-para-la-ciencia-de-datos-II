@@ -12,17 +12,17 @@ new_base_dir = pathlib.Path('HorsesOrHumans\horse_or_human')
 train_dataset = image_dataset_from_directory(
     new_base_dir / "train",
     image_size=(180, 180),
-    batch_size=32)
+    batch_size=70)
 validation_dataset = image_dataset_from_directory(
     new_base_dir / "validation",
     image_size=(180, 180),
-    batch_size=32)
+    batch_size=15)
 
 # Test
 test_dataset = image_dataset_from_directory(
     new_base_dir / "test",
     image_size=(180, 180),
-    batch_size=32)
+    batch_size=15)
 
 for data_batch, labels_batch in train_dataset:
     print("data batch shape:", data_batch.shape)
@@ -53,6 +53,7 @@ model = keras.Sequential([keras.Input(shape=(180, 180, 3)),
                           layers.MaxPooling2D(pool_size=2),
                           layers.Conv2D(filters=256, kernel_size=3,
                                         activation="relu"),
+                          layers.MaxPooling2D(pool_size=2),
                           layers.Flatten(),
                           layers.Dense(1, activation="sigmoid")])
 
@@ -71,7 +72,7 @@ callbacks = [
 
 history = model.fit(
     train_dataset,
-    epochs=30,
+    epochs=25,
     validation_data=validation_dataset,
     callbacks=callbacks)
 
